@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CHN</title>
+		<script type="text/javascript">
+		function showinfo(){
+			 
+			alert("啦啦啦");
+			alert("哈哈哈");
+			alert("嘻嘻嘻");
+			
+		}
+		</script>
+	</head>
+	<body>
+		<script type="text/javascript" >
+			
+			var now=new Date();
+			
+			document.write(now);
+			
+		</script><br />
+		<script type="text/javascript" >
+			
+			/*document.write("中国CHN")*/
+			
+			var now=new Date();
+			var hour= now.getHours();
+			
+		/*	document.write(hour);*/
+			/*
+			 *如果时间<12，那么输出上午好，否则下午好
+			 */
+			if(hour<12)
+			{
+				document.write("上午好");
+			}
+			else
+			{
+				document.write("下午好");
+			}
+		
+		</script>
+		<img src="img/box.png" onclick="showinfo()" />
+	
+	</body>
+</html>
